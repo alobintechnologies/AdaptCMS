@@ -3093,3 +3093,49 @@ Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
 Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
 [main] - APP\webroot\index.php, line 92
 
+2014-03-30 15:39:09 Debug: Strict (2048): Declaration of AdaptcmsView::render() should be compatible with View::render($view = NULL, $layout = NULL) in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 10]
+Trace:
+include - APP\View\AdaptcmsView.php, line 10
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 64
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:39:09 Debug: Strict (2048): Declaration of AppModel::afterSave() should be compatible with Model::afterSave($created, $options = Array) in [D:\xampp\htdocs\PixlPost\app\Model\AppModel.php, line 11]
+Trace:
+include - APP\Model\AppModel.php, line 11
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+include - APP\Model\Block.php, line 9
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE\Cake\Utility\ClassRegistry.php, line 145
+Blocks::__construct() - APP\Service\Blocks.php, line 23
+AdaptcmsView::__construct() - APP\View\AdaptcmsView.php, line 24
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 64
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:39:10 Debug: Strict (2048): Declaration of ViewHelper::url() should be compatible with Helper::url($url = NULL, $full = false) in [D:\xampp\htdocs\PixlPost\app\View\Helper\ViewHelper.php, line 9]
+Trace:
+include - APP\View\Helper\ViewHelper.php, line 9
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+HelperCollection::load() - CORE\Cake\View\HelperCollection.php, line 130
+HelperCollection::__isset() - CORE\Cake\View\HelperCollection.php, line 63
+View::__get() - CORE\Cake\View\View.php, line 824
+include - APP\tmp\cache\views\pixlpost.php, line 12
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 625
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
