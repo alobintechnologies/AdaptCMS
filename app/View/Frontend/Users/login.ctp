@@ -1,7 +1,7 @@
 {{ addCrumb('Login', null) }}
 
 <div class="col-md-3 col-sm-2 col-xs-12">
-	{{ partial('Menus\guest_user_menus') }}
+	{{ partial('Menus/guest_user_menus') }}
 </div>
 <div class="col-xs-12 col-sm-8 col-md-6 clearfix">
 	{{ form.create() }}

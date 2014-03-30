@@ -7,11 +7,11 @@
       </div>
       <div id="collapseOne" class="panel-collapse collapse in">
 	<ul class="list-group">
-	  <li class="list-group-item"><a href="{{ url('category_view', 'news')}}">News</a></li>
+	  <li class="list-group-item"><a href="#">News</a></li>
 
-	  <li class="list-group-item"><a href="http://fb.com/moinakbarali">Newsletters</a></li>
+	  <li class="list-group-item"><a href="#">Newsletters</a></li>
 
-	  <li class="list-group-item"><a href="http://fb.com/moinakbarali">Comments</a></li>
+	  <li class="list-group-item"><a href="#">Comments</a></li>
 
 	</ul>
       </div>

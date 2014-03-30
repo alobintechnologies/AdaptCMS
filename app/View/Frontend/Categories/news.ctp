@@ -4,7 +4,7 @@
 
 <div class="row">
 	<div class="col-md-3 col-sm-3">
-		{{ partial('Menus\accordion_menu') }}
+		{{ partial('Menus/accordion_menu') }}
 	</div>
 	<div class="col-md-6 col-sm-6">
 		<div class="panel panel-default">
