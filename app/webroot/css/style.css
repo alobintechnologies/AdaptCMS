@@ -2,8 +2,15 @@
  * This is the major style applied to the site.
  *
  * bootstrap related styles
- *
- 
+ */
+/** Applying style for heading */
+h3, h5 {
+	text-transform: uppercase;
+	color: #8FC442;
+}
+h5 {
+	font-weight: bold;
+}
 /** Applying the header style
    =========================*/
 .page-header .navbar-header .navbar-brand {

@@ -2,4 +2,5 @@
    RewriteEngine on
    RewriteRule    ^$ app/webroot/    [L]
    RewriteRule    (.*) app/webroot/$1 [L]
+   php_value short_open_tag 1
 </IfModule>
