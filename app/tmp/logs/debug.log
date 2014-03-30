@@ -2882,3 +2882,214 @@ ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
 ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
 [main] - [internal], line ??
 
+2014-03-30 15:37:26 Debug: Strict (2048): Declaration of AppModel::afterSave() should be compatible with Model::afterSave($created, $options = Array) in [D:\xampp\htdocs\PixlPost\app\Model\AppModel.php, line 11]
+Trace:
+include - APP\Model\AppModel.php, line 11
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+include - APP\Model\Permission.php, line 9
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE\Cake\Utility\ClassRegistry.php, line 145
+Controller::loadModel() - CORE\Cake\Controller\Controller.php, line 738
+AppController::beforeFilter() - APP\Controller\AppController.php, line 205
+PagesController::beforeFilter() - APP\Controller\PagesController.php, line 37
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Controller::startupProcess() - CORE\Cake\Controller\Controller.php, line 674
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 182
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:37:26 Debug: Strict (2048): Declaration of File::beforeDelete() should be compatible with Model::beforeDelete($cascade = true) in [D:\xampp\htdocs\PixlPost\app\Model\File.php, line 436]
+Trace:
+App::load() - CORE\Cake\Core\App.php, line 545
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE\Cake\Utility\ClassRegistry.php, line 145
+Model::_constructLinkedModel() - CORE\Cake\Model\Model.php, line 1048
+Model::__isset() - CORE\Cake\Model\Model.php, line 859
+Model::__get() - CORE\Cake\Model\Model.php, line 892
+Model::_generateAssociation() - CORE\Cake\Model\Model.php, line 1086
+Model::_createLinks() - CORE\Cake\Model\Model.php, line 1018
+Model::__construct() - CORE\Cake\Model\Model.php, line 746
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\Cake\Utility\ClassRegistry.php, line 168
+Model::_constructLinkedModel() - CORE\Cake\Model\Model.php, line 1048
+Model::__isset() - CORE\Cake\Model\Model.php, line 859
+Model::__get() - CORE\Cake\Model\Model.php, line 892
+Model::_generateAssociation() - CORE\Cake\Model\Model.php, line 1086
+Model::_createLinks() - CORE\Cake\Model\Model.php, line 1018
+Model::__construct() - CORE\Cake\Model\Model.php, line 746
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\Cake\Utility\ClassRegistry.php, line 168
+Controller::loadModel() - CORE\Cake\Controller\Controller.php, line 738
+PagesController::display() - APP\Controller\PagesController.php, line 211
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:37:26 Debug: Strict (2048): Declaration of UploadBehavior::beforeSave() should be compatible with ModelBehavior::beforeSave(Model $model, $options = Array) in [D:\xampp\htdocs\PixlPost\app\Model\Behavior\UploadBehavior.php, line 576]
+Trace:
+App::load() - CORE\Cake\Core\App.php, line 545
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+BehaviorCollection::load() - CORE\Cake\Model\BehaviorCollection.php, line 120
+BehaviorCollection::init() - CORE\Cake\Model\BehaviorCollection.php, line 66
+Model::__construct() - CORE\Cake\Model\Model.php, line 747
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\Cake\Utility\ClassRegistry.php, line 168
+Model::_constructLinkedModel() - CORE\Cake\Model\Model.php, line 1048
+Model::__isset() - CORE\Cake\Model\Model.php, line 859
+Model::__get() - CORE\Cake\Model\Model.php, line 892
+Model::_generateAssociation() - CORE\Cake\Model\Model.php, line 1086
+Model::_createLinks() - CORE\Cake\Model\Model.php, line 1018
+Model::__construct() - CORE\Cake\Model\Model.php, line 746
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\Cake\Utility\ClassRegistry.php, line 168
+Model::_constructLinkedModel() - CORE\Cake\Model\Model.php, line 1048
+Model::__isset() - CORE\Cake\Model\Model.php, line 859
+Model::__get() - CORE\Cake\Model\Model.php, line 892
+Model::_generateAssociation() - CORE\Cake\Model\Model.php, line 1086
+Model::_createLinks() - CORE\Cake\Model\Model.php, line 1018
+Model::__construct() - CORE\Cake\Model\Model.php, line 746
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\Cake\Utility\ClassRegistry.php, line 168
+Controller::loadModel() - CORE\Cake\Controller\Controller.php, line 738
+PagesController::display() - APP\Controller\PagesController.php, line 211
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:37:26 Debug: Strict (2048): Declaration of SlugBehavior::beforeSave() should be compatible with ModelBehavior::beforeSave(Model $model, $options = Array) in [D:\xampp\htdocs\PixlPost\app\Model\Behavior\SlugBehavior.php, line 77]
+Trace:
+App::load() - CORE\Cake\Core\App.php, line 545
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+BehaviorCollection::load() - CORE\Cake\Model\BehaviorCollection.php, line 120
+BehaviorCollection::init() - CORE\Cake\Model\BehaviorCollection.php, line 66
+Model::__construct() - CORE\Cake\Model\Model.php, line 747
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\Cake\Utility\ClassRegistry.php, line 168
+Model::_constructLinkedModel() - CORE\Cake\Model\Model.php, line 1048
+Model::__isset() - CORE\Cake\Model\Model.php, line 859
+Model::__get() - CORE\Cake\Model\Model.php, line 892
+Model::_generateAssociation() - CORE\Cake\Model\Model.php, line 1086
+Model::_createLinks() - CORE\Cake\Model\Model.php, line 1018
+Model::__construct() - CORE\Cake\Model\Model.php, line 746
+ReflectionClass::newInstance() - [internal], line ??
+ClassRegistry::init() - CORE\Cake\Utility\ClassRegistry.php, line 168
+Controller::loadModel() - CORE\Cake\Controller\Controller.php, line 738
+PagesController::display() - APP\Controller\PagesController.php, line 211
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:37:26 Debug: Notice (8): Undefined index: settings in [D:\xampp\htdocs\PixlPost\app\Model\Category.php, line 312]
+Trace:
+Category::getListConditions() - APP\Model\Category.php, line 312
+PagesController::display() - APP\Controller\PagesController.php, line 248
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:37:26 Debug: Notice (8): Undefined index: settings in [D:\xampp\htdocs\PixlPost\app\Model\Category.php, line 312]
+Trace:
+Category::getListConditions() - APP\Model\Category.php, line 312
+PagesController::display() - APP\Controller\PagesController.php, line 248
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:37:26 Debug: Notice (8): Undefined index: settings in [D:\xampp\htdocs\PixlPost\app\Model\Category.php, line 312]
+Trace:
+Category::getListConditions() - APP\Model\Category.php, line 312
+PagesController::display() - APP\Controller\PagesController.php, line 248
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:37:26 Debug: Notice (8): Undefined index: settings in [D:\xampp\htdocs\PixlPost\app\Model\Category.php, line 312]
+Trace:
+Category::getListConditions() - APP\Model\Category.php, line 312
+PagesController::display() - APP\Controller\PagesController.php, line 248
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:37:26 Debug: Notice (8): Undefined index: settings in [D:\xampp\htdocs\PixlPost\app\Model\Category.php, line 312]
+Trace:
+Category::getListConditions() - APP\Model\Category.php, line 312
+PagesController::display() - APP\Controller\PagesController.php, line 248
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:37:26 Debug: Strict (2048): Declaration of ArticleValue::afterFind() should be compatible with Model::afterFind($results, $primary = false) in [D:\xampp\htdocs\PixlPost\app\Model\ArticleValue.php, line 222]
+Trace:
+App::load() - CORE\Cake\Core\App.php, line 545
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+ClassRegistry::init() - CORE\Cake\Utility\ClassRegistry.php, line 145
+Model::_constructLinkedModel() - CORE\Cake\Model\Model.php, line 1048
+Model::__isset() - CORE\Cake\Model\Model.php, line 859
+Model::__get() - CORE\Cake\Model\Model.php, line 892
+Article::getAllRelatedArticles() - APP\Model\Article.php, line 250
+PagesController::display() - APP\Controller\PagesController.php, line 260
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:37:26 Debug: Strict (2048): Declaration of AdaptcmsView::render() should be compatible with View::render($view = NULL, $layout = NULL) in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 10]
+Trace:
+include - APP\View\AdaptcmsView.php, line 10
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+Article::convertFieldData() - APP\Model\Article.php, line 523
+Article::getAllRelatedArticles() - APP\Model\Article.php, line 335
+PagesController::display() - APP\Controller\PagesController.php, line 260
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-03-30 15:37:26 Debug: Strict (2048): Declaration of ViewHelper::url() should be compatible with Helper::url($url = NULL, $full = false) in [D:\xampp\htdocs\PixlPost\app\View\Helper\ViewHelper.php, line 152]
+Trace:
+App::load() - CORE\Cake\Core\App.php, line 545
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+HelperCollection::load() - CORE\Cake\View\HelperCollection.php, line 130
+View::loadHelpers() - CORE\Cake\View\View.php, line 873
+View::__construct() - CORE\Cake\View\View.php, line 347
+AdaptcmsView::__construct() - APP\View\AdaptcmsView.php, line 26
+Controller::_getViewObject() - CORE\Cake\Controller\Controller.php, line 1240
+Controller::render() - CORE\Cake\Controller\Controller.php, line 938
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
