@@ -5,7 +5,7 @@
 {% endif %}
 <div class="list-group">
 {% if not empty(data) %}
-	{{ image($data[0]['Data']['news-image']) }}
+	{{ image($data[0]['Data']['news-image'], array('class' => 'full-size')) }}
 	<div class="well">
 		{{ data[0]['Data']['short-desc'] }}
 		<a href="{{ url('article_view', $data[0]) }}">Read more &raquo;</a>

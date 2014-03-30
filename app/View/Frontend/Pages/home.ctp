@@ -16,8 +16,8 @@
 		<div class="border_box">
 			<div class="box_skitter box_skitter_large">
 				<ul>
-					<li><a href="#cube"><?php echo $this->Html->image('hp.jpg', array('class' => 'cube')); ?></a><div class="label_text"><p>cube</p></div></li>
-					<li><a href="#cubeRandom"><?php echo $this->Html->image('bottcher_banner.jpg', array('class' => 'cubeRandom')); ?></a><div class="label_text"><p>cubeRandom</p></div></li>
+					<li><a href="#cube"><?php echo $this->Html->image('hp.jpg', array('class' => 'cube full-size')); ?></a><div class="label_text"><p>cube</p></div></li>
+					<li><a href="#cubeRandom"><?php echo $this->Html->image('bottcher_banner.jpg', array('class' => 'cubeRandom full-size')); ?></a><div class="label_text"><p>cubeRandom</p></div></li>
 					
 				</ul>
 			</div>

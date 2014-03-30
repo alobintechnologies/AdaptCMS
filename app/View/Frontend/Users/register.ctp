@@ -48,7 +48,7 @@
 	
 	<hr/>
 	{% if not empty(captcha_setting) %}
-		<div id="captcha" class="input text form-group">
+		<div id="captcha" class="input text">
 			{{ captcha.form() }}
 		</div>
 	{% endif %}

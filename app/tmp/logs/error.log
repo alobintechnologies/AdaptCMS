@@ -2080,3 +2080,189 @@ Request URL: /PixlPost/img/skittersprite-default.png
 Stack Trace:
 #0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-03-30 20:36:53 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time or established connection failed because connected host has failed to respond.
+',
+  'enabled' => true,
+)
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\PixlPost\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(3476): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(3498): Model->setSource('blocks')
+#5 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#6 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1447): Model->schema()
+#7 D:\xampp\htdocs\PixlPost\app\Model\Behavior\DeleteBehavior.php(40): Model->hasField('deleted_time')
+#8 D:\xampp\htdocs\PixlPost\lib\Cake\Model\BehaviorCollection.php(145): DeleteBehavior->setup(Object(Block), Array)
+#9 D:\xampp\htdocs\PixlPost\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Delete', Array)
+#10 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(747): BehaviorCollection->init('Block', Array)
+#11 [internal function]: Model->__construct(Array)
+#12 D:\xampp\htdocs\PixlPost\lib\Cake\Utility\ClassRegistry.php(168): ReflectionClass->newInstance(Array)
+#13 D:\xampp\htdocs\PixlPost\app\Service\Blocks.php(23): ClassRegistry::init('Block')
+#14 D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php(24): Blocks->__construct()
+#15 D:\xampp\htdocs\PixlPost\app\Routing\Filter\AdaptcmsCacheDispatcher.php(64): AdaptcmsView->__construct(NULL)
+#16 [internal function]: AdaptcmsCacheDispatcher->beforeDispatch(Object(CakeEvent))
+#17 D:\xampp\htdocs\PixlPost\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#18 D:\xampp\htdocs\PixlPost\lib\Cake\Routing\Dispatcher.php(140): CakeEventManager->dispatch(Object(CakeEvent))
+#19 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2014-03-30 20:37:14 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [D:\xampp\htdocs\PixlPost\lib\Cake\Model\Datasource\Database\Mysql.php, line 175]
+2014-03-30 20:37:14 Error: [InternalErrorException] Internal Server Error
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'D:\xampp\htdocs...', 175)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'D:\xampp\htdocs...', 175, Array)
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'D:\xampp\htdocs...', 175, Array)
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 20:37:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:37:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:37:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:37:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:38:05 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time or established connection failed because connected host has failed to respond.
+',
+  'enabled' => true,
+)
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\PixlPost\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(3476): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(3498): Model->setSource('blocks')
+#5 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#6 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1447): Model->schema()
+#7 D:\xampp\htdocs\PixlPost\app\Model\Behavior\DeleteBehavior.php(40): Model->hasField('deleted_time')
+#8 D:\xampp\htdocs\PixlPost\lib\Cake\Model\BehaviorCollection.php(145): DeleteBehavior->setup(Object(Block), Array)
+#9 D:\xampp\htdocs\PixlPost\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Delete', Array)
+#10 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(747): BehaviorCollection->init('Block', Array)
+#11 [internal function]: Model->__construct(Array)
+#12 D:\xampp\htdocs\PixlPost\lib\Cake\Utility\ClassRegistry.php(168): ReflectionClass->newInstance(Array)
+#13 D:\xampp\htdocs\PixlPost\app\Service\Blocks.php(23): ClassRegistry::init('Block')
+#14 D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php(24): Blocks->__construct()
+#15 D:\xampp\htdocs\PixlPost\app\Routing\Filter\AdaptcmsCacheDispatcher.php(64): AdaptcmsView->__construct(NULL)
+#16 [internal function]: AdaptcmsCacheDispatcher->beforeDispatch(Object(CakeEvent))
+#17 D:\xampp\htdocs\PixlPost\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#18 D:\xampp\htdocs\PixlPost\lib\Cake\Routing\Dispatcher.php(140): CakeEventManager->dispatch(Object(CakeEvent))
+#19 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2014-03-30 20:38:27 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [D:\xampp\htdocs\PixlPost\lib\Cake\Model\Datasource\Database\Mysql.php, line 175]
+2014-03-30 20:38:27 Error: [InternalErrorException] Internal Server Error
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'D:\xampp\htdocs...', 175)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'D:\xampp\htdocs...', 175, Array)
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'D:\xampp\htdocs...', 175, Array)
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 20:39:29 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time or established connection failed because connected host has failed to respond.
+',
+  'enabled' => true,
+)
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 D:\xampp\htdocs\PixlPost\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(3476): ConnectionManager::getDataSource('default')
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1126): Model->setDataSource('default')
+#4 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(3498): Model->setSource('blocks')
+#5 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#6 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1447): Model->schema()
+#7 D:\xampp\htdocs\PixlPost\app\Model\Behavior\DeleteBehavior.php(40): Model->hasField('deleted_time')
+#8 D:\xampp\htdocs\PixlPost\lib\Cake\Model\BehaviorCollection.php(145): DeleteBehavior->setup(Object(Block), Array)
+#9 D:\xampp\htdocs\PixlPost\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Delete', Array)
+#10 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(747): BehaviorCollection->init('Block', Array)
+#11 [internal function]: Model->__construct(Array)
+#12 D:\xampp\htdocs\PixlPost\lib\Cake\Utility\ClassRegistry.php(168): ReflectionClass->newInstance(Array)
+#13 D:\xampp\htdocs\PixlPost\app\Service\Blocks.php(23): ClassRegistry::init('Block')
+#14 D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php(24): Blocks->__construct()
+#15 D:\xampp\htdocs\PixlPost\app\Routing\Filter\AdaptcmsCacheDispatcher.php(64): AdaptcmsView->__construct(NULL)
+#16 [internal function]: AdaptcmsCacheDispatcher->beforeDispatch(Object(CakeEvent))
+#17 D:\xampp\htdocs\PixlPost\lib\Cake\Event\CakeEventManager.php(247): call_user_func(Array, Object(CakeEvent))
+#18 D:\xampp\htdocs\PixlPost\lib\Cake\Routing\Dispatcher.php(140): CakeEventManager->dispatch(Object(CakeEvent))
+#19 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2014-03-30 20:39:51 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [D:\xampp\htdocs\PixlPost\lib\Cake\Model\Datasource\Database\Mysql.php, line 175]
+2014-03-30 20:39:51 Error: [InternalErrorException] Internal Server Error
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'D:\xampp\htdocs...', 175)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'D:\xampp\htdocs...', 175, Array)
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'D:\xampp\htdocs...', 175, Array)
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 20:39:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:39:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:39:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:39:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

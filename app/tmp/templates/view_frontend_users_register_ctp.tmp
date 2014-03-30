@@ -48,7 +48,7 @@
 	
 	<hr/>
 	<?php if ( !empty($captcha_setting)): ?>
-		<div id="captcha" class="input text form-group">
+		<div id="captcha" class="input text">
 			<?php echo $this->Captcha->form() ?>
 		</div>
 	<?php endif ?>
