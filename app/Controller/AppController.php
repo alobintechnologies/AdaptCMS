@@ -256,6 +256,7 @@ class AppController extends Controller
         );
 
         $this->viewClass = 'Adaptcms';
+
     }
 
     /**

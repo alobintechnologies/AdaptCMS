@@ -1,4 +1,4 @@
-{{ addCrumb('Media Index', null) }}ste
+{{ addCrumb('Media Index', null) }}
 
 <h1>Media Libraries</h1>
 

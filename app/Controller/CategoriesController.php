@@ -28,7 +28,6 @@ class CategoriesController extends AppController
 	public function beforeFilter()
 	{
 		parent::beforeFilter();
-
 		$this->permissions = $this->getPermissions();
 	}
 
@@ -221,8 +220,8 @@ class CategoriesController extends AppController
             ));
         }
 
-		if (!$this->Category->hasAnyPermissionAccess($this->getRole(), 'view', $category))
-			return $this->denyRedirect();
+		/*if (!$this->Category->hasAnyPermissionAccess($this->getRole(), 'view', $category))
+			return $this->denyRedirect();*/
 
 		$this->loadModel('SettingValue');
 		
@@ -239,7 +238,7 @@ class CategoriesController extends AppController
             'Article.publish_time <=' => date('Y-m-d H:i:s')
 		);
 
-	    if ($this->permissions['any'] == 0 && $this->Auth->user('id') || $this->Category->getPermissionAccess($this->getRole(), 'view', $category))
+	    if ($this->permissions['any'] == 0 && $this->Auth->user('id') && $this->Category->getPermissionAccess($this->getRole(), 'view', $category))
 	    	$conditions['Article.user_id'] = $this->Auth->user('id');
 
 		$this->Paginator->settings = array(
@@ -255,7 +254,7 @@ class CategoriesController extends AppController
 		);
 
 		$this->set('category', $category['Category']);
-		$this->set('articles', $this->request->data);
+		$this->set('articles', $articles);
 
 		if ($this->theme != "Default" &&
 			file_exists(VIEW_PATH . 'Themed/'. $this->theme . '/Frontend/Categories/' . $slug . '.ctp') ||

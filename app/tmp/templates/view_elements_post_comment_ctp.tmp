@@ -1,0 +1,73 @@
+<?php if ( $this->Admin->hasPermission($permissions['related']['comments']['ajax_post'])): ?>
+    <?php if (empty($article['Article']['settings']['comments_status']) || $article['Article']['settings']['comments_status'] == 'open'): ?>
+        <?php echo $this->Form->create('Comment', array('class' => 'PostComment admin-validate')) ?>
+
+			<?php echo $this->Form->input('author_name', array(
+				'label' => 'Your Name',
+				'class' => 'author_name',
+				'value' => ($this->Session->check('Comment.author_name') ? $this->Session->read('Comment.author_name') : '')
+			)) ?>
+			<?php echo $this->Form->input('author_email', array(
+				'label' => 'Your Email Address',
+				'class' => 'email author_email',
+				'value' => ($this->Session->check('Comment.author_email') ? $this->Session->read('Comment.author_email') : ($this->Session->check('Auth.User.email') ? $this->Session->read('Auth.User.email') : ''))
+			)) ?>
+			<?php echo $this->Form->input('author_website', array(
+				'label' => 'Your Website',
+				'class' => 'url author_website',
+				'placeholder' => 'http://',
+				'value' => ($this->Session->check('Comment.author_website') ? $this->Session->read('Comment.author_website') : '')
+			)) ?>
+
+			<?php if ( !empty($fields)): ?>
+				<?php foreach($fields as $index => $field): ?>
+					<?php echo $this->Element('FieldTypes/' . $field['FieldType']['slug'], array(
+						'model' => 'ModuleValue',
+						'key' => $index,
+						'field' => $field,
+						'icon' => !empty($field['Field']['description']) ?
+							"<i class='icon icon-question-sign field-desc' data-content='".$field['Field']['description']."' data-title='".$field['Field']['label']."'></i>&nbsp;" : ''
+					)) ?>
+					<?php echo $this->Form->hidden('ModuleValue.' . $index . '.field_id', array('value' => $field['Field']['id'])) ?>
+					<?php echo $this->Form->hidden('ModuleValue.' . $index . '.module_id', array('value' => $article['User']['id'])) ?>
+					<?php echo $this->Form->hidden('ModuleValue.' . $index . '.module_name', array('value' => 'comment')) ?>
+
+					<?php if ( !empty($field['ModuleValue'][0]['id'])): ?>
+						<?php echo $this->Form->hidden('ModuleValue.' . $index . '.id', array('value' => $field['ModuleValue'][0]['id'])) ?>
+					<?php endif ?>
+				<?php endforeach ?>
+			<?php endif ?>
+
+            <?php echo $this->Form->input('comment_text', array(
+                'class' => 'span6',
+                'div' => array(
+                    'style' => 'margin-bottom: 10px;margin-top: 10px'
+                ),
+                'label' => false,
+                'placeholder' => 'Enter in your comment...'
+            )) ?>
+
+            <?php if ( !empty($article['Article']['id'])): ?>
+                <?php echo $this->Form->hidden('article_id', array(
+                    'value' => $article['Article']['id']
+                )) ?>
+            <?php endif ?>
+
+            <?php if ( !empty($captcha_setting)): ?>
+                <div id="captcha">
+                    <?php echo $this->Captcha->form() ?>
+                </div>
+            <?php endif ?>
+
+            <?php echo $this->Form->button('Post Comment', array(
+                'type' => 'button',
+                'class' => 'btn submit-comment'
+            )) ?>
+
+        <?php echo $this->Form->end() ?>
+	<?php else: ?>
+		<p>Sorry, posting comments is disabled for this article.</p>
+    <?php endif ?>
+<?php elseif (!$this->Session->check('Auth.User.username')): ?>
+    Please <a href="<?php echo $this->View->url('login') ?>">login</a> or <a href="<?php echo $this->View->url('register') ?>">register</a> in order to post a comment.
+<?php endif ?>

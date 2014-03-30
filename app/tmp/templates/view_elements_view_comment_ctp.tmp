@@ -1,0 +1,60 @@
+<a name="comment_<?php echo $data['Comment']['id'] ?>"></a>
+
+<div class="span5 well comment level_<?php echo $level ?>" id="comment-<?php echo $data['Comment']['id'] ?>">
+	<div class="header pull-left">
+		<h5>
+			<span class="pull-left">
+				<?php if ( !empty($data['User']['username'])): ?>
+					<a href="<?php echo $this->View->url('user_profile', $data['User']['username']) ?>">
+						<?php echo $data['User']['username'] ?>
+					</a>
+				<?php elseif (!empty($data['Comment']['author_name']) && !empty($data['Comment']['author_website'])): ?>
+					<?php echo $this->Html->link($data['Comment']['author_name'], $data['Comment']['author_website'], array('target' => '_blank')) ?>
+				<?php elseif (!empty($data['Comment']['author_name']) && empty($data['Comment']['author_website'])): ?>
+					<?php echo $data['Comment']['author_name'] ?>
+				<?php else: ?>
+					Guest
+				<?php endif ?>
+				 @
+				<?php echo $this->Admin->time($data['Comment']['created'], 'words') ?>
+			</span>
+		</h5>
+	</div>
+	<div class="btn-group pull-right">
+		<?php if ( !empty($permissions['related']['comments']['admin_edit']) && $this->Admin->hasPermission($permissions['related']['comments']['admin_edit'], $data['User']['id'])): ?>
+			<a href="<?php echo $this->View->url('comment_edit', $data) ?>">
+				edit <i class="icon-pencil"></i>
+			</a>
+		<?php endif ?>
+		<?php if ( !empty($permissions['related']['comments']['admin_delete']) && $this->Admin->hasPermission($permissions['related']['comments']['admin_delete'], $data['User']['id'])): ?>
+			<a href="<?php echo $this->View->url('comment_delete', $data) ?>" class="btn-confirm">
+				delete <i class="icon-trash"></i>
+			</a>
+		<?php endif ?>
+	</div>
+	<div class="clearfix"></div>
+
+	<div class="body">
+		<?php echo $data['Comment']['comment_text'] ?>
+
+		<?php if ( !empty($data['Data'])): ?>
+			<?php foreach($data['Data'] as $index => $value): ?>
+				<dt>
+					<?php echo Inflector::humanize($index) ?>
+				</dt>
+				<dd>
+					<?php echo $value ?>
+				</dd>
+			<?php endforeach ?>
+		<?php endif ?>
+	</div>
+
+	<?php if ( $level != 3): ?>
+		<div class="footer">
+			<?php echo $this->Html->link('reply <i class="icon-reply"></i>', '#reply', array('class' => 'pull-right', 'escape' => false)) ?>
+		</div>
+		<div class="clearfix"></div>
+	<?php endif ?>
+</div>
+
+<div class="clearfix"></div>

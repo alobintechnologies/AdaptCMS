@@ -1,0 +1,55 @@
+<?php $this->Html->addCrumb($article['Category']['title'], $this->View->url('category_view', $article['Category']['slug'])) ?>
+<?php $this->Html->addCrumb($article['Article']['title'], null) ?>
+
+<?php $this->set("title_for_layout", $article['Article']['title']) ?>
+
+<?php if ( !empty($wysiwyg)): ?>
+	<?php echo $this->TinyMce->editor(array("simple" => true)) ?>
+<?php endif ?>
+
+<?php $this->AdaptHtml->script('jquery.blockui.min.js') ?>
+<?php $this->AdaptHtml->script('jquery.smooth-scroll.min.js') ?>
+<?php $this->AdaptHtml->script('comments.js') ?>
+
+<?php echo $this->Element('ArticleRatings.rating') ?>
+
+<div class="span8 no-marg-left">
+	<h1><?php echo $article['Article']['title'] ?></h1>
+
+	<p class="lead">
+		@ <em><?php echo $this->Admin->time($article['Article']['created']) ?></em>
+	</p>
+
+	<?php echo $this->Field->getTextAreaData($article) ?>
+
+	<div id="post-options">
+        <span class="pull-left">
+	        <a href="<?php echo $this->View->url('category_view', $category['slug']) ?>" class="btn btn-primary">
+		        <?php echo $category['title'] ?>
+	        </a>
+            <span style="margin-left: 10px">
+                <i class="icon-search icon-user"></i>&nbsp;
+                Posted by <a href="<?php echo $this->View->url('user_profile', $user['username']) ?>"><?php echo $user['username'] ?></a>
+            </span>
+        </span>
+        <span class="pull-right">
+	        <?php if ( !empty($tags)): ?>
+	            <?php foreach($tags as $index => $tag): ?>
+	                <a href="<?php echo $this->View->url('article_tag', $tag) ?>" class="tags">
+		                <span class="btn btn-success"><?php echo $tag ?></span>
+	                </a>
+	            <?php endforeach ?>
+        	<?php endif ?>
+        </span>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+<h2>Comments</h2>
+
+<!--nocache-->
+<?php echo $this->Element('post_comment', array('cached' => false)) ?>
+<!--/nocache-->
+
+<?php echo $this->Element('view_all_comments', array('comments' => $comments)) ?>

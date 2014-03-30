@@ -1,0 +1,20 @@
+<?php $this->Html->addCrumb($tag, null) ?>
+
+<h1><?php echo $tag ?></h1>
+
+<?php if (empty($articles)): ?>
+	<p>No Articles Found</p>
+<?php else: ?>
+	<ul>
+		<?php foreach($articles as $index => $article): ?>
+			<li>
+				<a href="<?php echo $this->View->url('article_view', $article) ?>">
+					<?php echo $article['Article']['title'] ?>
+				</a> @
+				<?php echo $this->Admin->time($article['Article']['created']) ?>
+			</li>
+		<?php endforeach ?>
+	</ul>
+<?php endif ?>
+
+<?php echo $this->Element('pagination') ?>

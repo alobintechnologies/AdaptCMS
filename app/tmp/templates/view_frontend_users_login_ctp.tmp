@@ -1,0 +1,26 @@
+<?php $this->Html->addCrumb('Login', null) ?>
+
+<h1>Login</h1>
+
+<?php echo $this->Form->create() ?>
+	<?php echo $this->Form->input('username') ?>
+	<?php echo $this->Form->input('password') ?>
+<?php echo $this->Form->end(array('class' => 'btn', 'label' => 'Login')) ?>
+
+<a href="<?php echo $this->View->url('register') ?>">Don't have an account? Register now!</a><br />
+<a href="<?php echo $this->View->url('user_forgot_password') ?>">Forgot Password?</a><br />
+
+<?php if ( !empty($this->Facebook)): ?>
+	<h1>3rd Party Login</h1>
+
+	<p>
+		<?php echo $facebook.login ?>
+	</p>
+	<p>
+		<?php if ( $this->Session->read('Auth.User.login_type') && $this->Session->read('Auth.User.login_type') == 'facebook'): ?>
+			<?php echo $facebook.logout ?>
+		<?php endif ?>
+	</p>
+<?php endif ?>
+
+<div class="clearfix"></div>

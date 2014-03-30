@@ -24,8 +24,7 @@
 	<!-- Le styles -->
 	{{ css("bootstrap-default.min") }}
 	<style type="text/css">
-		body {
-			padding-top: 60px;
+		body {			
 			padding-bottom: 40px;
 		}
 
@@ -35,6 +34,8 @@
 	</style>
 
 	{{ css("font-awesome.min") }}
+	{{ css("style") }}
+	{{ css("plugins/skitter/skitter.styles") }}
 
 	<!--[if lt IE 9]>
 	{{ js('html5.min') }}
@@ -45,126 +46,97 @@
 </head>
 
 <body>
-
-<div class="navbar navbar-inverse navbar-fixed-top">
-	<button class="navbar-toggle collapsed" data-toggle="collapse" type="button" data-target=".navbar-responsive-collapse">
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	</button>
-	<a class="navbar-brand" href="{{ webroot }}">{{ sitename }}</a>
-
-	<div class="navbar-responsive-collapse nav-collapse collapse">
-		<ul class="nav navbar-nav">
-			<li class="active"><a href="{{ webroot }}">Home</a></li>
-			{% if is_admin %}
-			<li><a href="{{ webroot }}admin">Admin</a></li>
-			{% endif %}
-			{% if hasPlugin('Adaptbb') %}
-			<li>
-				<a href="{{ url('adaptbb_forums') }}">Forums</a>
-			</li>
-			{% endif %}
+<!--start: Header -->
+<header class="page-header">		
+	<nav class="navbar navbar-fixed-top navbar-default header-navbar" role="navigation">
+	<!--start: Container -->				
+	<div class="container">
+	    <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		    <span class="sr-only">Toggle navigation</span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		</button>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex2-collapse">
+		    <span class="sr-only">Toggle navigation</span>
+		    <span class="glyphicon glyphicon-th-list"></span>
+		</button>
+		<a href="{{ webroot }}" class="navbar-brand">{{ image('logo.png') }}</a>		    </div>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse navbar-ex1-collapse">		    			
+		<ul class="nav navbar-nav navbar-right cl-effect-21" id="top-menu">
+		    <li class="active"><a href="{{ webroot }}">Home</a></li>
+		    <li><a href="#about">Our Benefits</a></li>
+		    <li><a href="{{ url('category_view', array('classifieds')) }}">Products</a></li>
+		    <li><a href="{{ url('category_view', array('calendars')) }}">E-News</a></li>
+		    <li><a href="{{ url('category_view', array('listings')) }}">Services</a></li>
+		    <li><a href="{{ url('category_view', array('news')) }}">Events</a></li>
+		    <li><a href="{{ url('category_view', array('videos')) }}">Videos</a></li>
 		</ul>
-		{{ partial('Search/search_basic') }}
-		<p class="navbar-text pull-right">
-			<!--nocache-->
-			{% if logged_in %}
-			Logged in as <a href="{{ url('user_profile', current_user('username')) }}" class="navbar-link"> {{ current_user('username') }} </a>
-
-			{% if current_user('login_type') && current_user('login_type') == 'facebook' %}
-			{{ facebook_logout }}
-			{% else %}
-			<a href="{{ url('logout') }}" class="logout"> (logout)</a>
-			{% endif %}
-			{% else %}
-			Please <a href="{{ url('login') }}" class="navbar-link">login</a> or <a href="{{ url('register') }}" class="navbar-link">register</a>
-			{% endif %}
-			<!--/nocache-->
-		</p>
+	    </div>
+	    <!-- /.navbar-collapse -->
 	</div>
-	<!--/.nav-collapse -->
-</div>
-
-<div class="container-fluid">
-	<div class="row-fluid">
-		<div class="col-lg-3 left-menu">
-			<div class="well sidebar-nav">
-				<ul class="nav nav-list">
-					<li class="nav-header">Links</li>
-					<li>
-						<a href="{{ url('media_index') }}">Media</a>
-					</li>
-					<li>
-						<a href="{{ url('article_rss') }}">RSS Feed</a>
-					</li>
-					<li>
-						<a href="{{ url('page_view', 'contact-us') }}">Contact Us</a>
-					</li>
-					{% if hasPlugin('Polls') %}
-					<li>
-						<a href="{{ url('polls_list') }}">Polls List</a>
-					</li>
-					{% endif %}
-					<li class="nav-header">Categories</li>
-					<li>
-						<a href="{{ url('category_view', array('news')) }}">News</a>
-					</li>
-
-					{% if not empty(block_data['show-poll']) %}
-					<li class="nav-header">Poll</li>
-
-					<!--nocache-->
-					<div class="span11 clearfix">
-						{{ partial('Polls.show_poll', array('data' => $block_data['show-poll'], 'permissions' => $block_permissions['show-poll'])) }}
-					</div>
-					<!--/nocache-->
-					{% endif %}
-
-					{% if not empty(block_data['latest-links']) %}
-					<li class="nav-header clear">Links</li>
-
-					<div class="span11 clearfix">
-						{{ partial('Links.links_list', array('data' => $block_data['latest-links'])) }}
-					</div>
-					{% endif %}
-				</ul>
-			</div>
-			<!--/.well -->
-		</div>
-		<!--/span-->
-		<div class="col-lg-9 content">
-			{{ breadcrumbs }}
-			<!--nocache-->
-			{{ flash }}
-			<!--/nocache-->
-
-			{{ content }}
-		</div>
-		<!--/span-->
-
-		<hr>
-
-		<div class="col-lg-12 footer">
-			<p>
-			      <span class="pull-left">
-			          {{ powered_by }}
-			      </span>
-			      <span class="pull-right">
-			        &copy;
-				      {{ copyright }}
-				      <br/>
-			        Cosmo theme by {{ link('Bootswatch', 'http://bootswatch.com/cosmo/', array('target' => '_blank')) }}
-			      </span>
-			</p>
-		</div>
+	<!-- /.container -->
+	</nav>					
+</header>
+<!--end: Header-->
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+		<?php echo $this->Html->image('top_banner.jpg', array('class' => 'top-banner')) ?>
 	</div>
-	<!--/row-->
+	<div class="col-md-12">
+		<div class="info-bar "><p class="p-text">Promoting packaging, printing, wide format news, events and equipment online since 2002</p></div>
+	</div>
 </div>
-<!--/.fluid-container-->
+<div class="wrapper">
+	{{ breadcrumbs }}
+	<!--nocache-->
+	{{ flash }}
+	<!--/nocache-->
 
+	{{ content }}	
+</div>
+<hr />
+<footer class="row footerline ">
+	<div class="col-md-3 "> 
+		Copyright @ All Rights Reserved.	
+	</div>
+	<div class="col-md-7 col-md-offset-2">
+		<ul class="nav nav-list nav-justified">
+			<li>terms & conditions <span class="sep">|</span></li> 
+			<li>privacy policy <span class="sep">|</span></li> 
+			<li>contact us<span class="sep">|</span></li>
+			<li>site map<span class="sep">|</span></li>
+			<li>link to Pxl Post</li>
+		 </ul>
+	</div>
+</footer>
+
+</div>
 </body>
 {% if not empty(this->Facebook) %}
 {{ facebook.init() }}
 {% endif %}
+<!-- start: Java Script -->
+<?php
+echo $this->Html->script('vendor/skitter/jquery.easing.1.3');
+echo $this->Html->script('vendor/skitter/jquery.animate-colors-min');
+echo $this->Html->script('vendor/skitter/jquery.skitter.min');
+
+?>
+<!-- end: Java Script -->
+<script type="text/javascript">
+	$(window).scroll(function() {
+	    if ($(".navbar").offset().top > 50) {
+		$(".navbar-fixed-top").addClass("top-nav-collapse");
+	    } else {
+		$(".navbar-fixed-top").removeClass("top-nav-collapse");
+	    }
+	});
+	jQuery(document).ready(function($) {
+	    $(".box_skitter_large").skitter();
+	});
+</script>
 </html>
