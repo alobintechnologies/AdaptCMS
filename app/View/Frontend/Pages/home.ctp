@@ -6,7 +6,7 @@
 <div class="row">
 	<div class="col-md-4">
 		 <div style="height:280px" >
-			 <h2>"Photography helps people to see",</h2>
+			 <h2>&ldquo;Photography helps people to see&rdquo;,</h2>
 			 <h4 class="theme-color">Berenice Abbott</h4>
 			 <h6> Photographer, 1898-1991</h6>
 		</div>

@@ -3,9 +3,10 @@
 {{ setTitle($category['title']) }}
 
 <div class="row">
-	<div class="col-md-3">
+	<div class="col-md-3 col-sm-3">
+		
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-6 col-sm-6">
 		<h3>{{ category['title'] }}</h3>
 
 		{% if empty(articles) %}
@@ -17,8 +18,16 @@
 					<p class="lead">
 						@ <small><em>{{ time(article['Article']['created']) }}</em></small>
 					</p>
-					{{ image($article['Data']['news-image']) }}
-					{{ article['Data']['summary'] }}
+					<div class="row">
+					<div class="col-md-2 col-sm-3 col-xs-3">
+					{{ image($article['Data']['news-image'], array('style' => 'width:100%;')) }}
+					</div>					
+					{% if not empty(article['Data']['short-desc']) %}
+					<div class="col-md-10 col-sm-9 col-xs-9">
+					{{ article['Data']['short-desc'] }}
+					</div>
+					{% endif %}
+					</div>
 					<span class="pull-left">
 					    <a href="{{ url('article_view', $article) }}" class="btn btn-primary">Read More</a>
 					    <span style="margin-left: 10px">
@@ -46,7 +55,7 @@
 
 		{{ partial('pagination') }}
 	</div>
-	<div class="col-md-3">
+	<div class="col-md-3 col-sm-3">
 	{{ partial('Banners/home_right_banner', array('data' => 'serviceside.jpg')) }}
 	</div>
 </div> <!-- /end of news row -->

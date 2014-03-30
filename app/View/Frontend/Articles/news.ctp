@@ -11,7 +11,7 @@
 {{ js('jquery.smooth-scroll.min.js') }}
 {{ js('comments.js') }}
 
-<div class="span8 no-marg-left">
+<div class="news span8 no-marg-left">
 	<h1>{{ article['Article']['title'] }}</h1>
 
 	<p class="lead">

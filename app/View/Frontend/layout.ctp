@@ -2,7 +2,7 @@
 {% if not empty(this->Facebook) %}
 {{ facebook.html() }}
 {% else %}
-<html lang="en">
+<html lang="en"> 
 {% endif %}
 <head>
 	{{ html.charset() }}

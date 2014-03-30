@@ -2,47 +2,59 @@
 
 <?php $this->set("title_for_layout", $category['title']) ?>
 
-<h1><?php echo $category['title'] ?></h1>
+<div class="row">
+	<div class="col-md-3 col-sm-3">
+	</div>
+	<div class="col-md-6 col-sm-6">
+		<h3><?php echo $category['title'] ?></h3>
 
-<?php if (empty($articles)): ?>
-	<p>No Articles Found</p>
-<?php else: ?>
-	<?php foreach($articles as $index => $article): ?>
-		<div class="span8 no-marg-left clearfix">
-			<a href="<?php echo $this->View->url('article_view', $article) ?>"><h2><?php echo $article['Article']['title'] ?></h2></a>
-			<p class="lead">
-				@ <em><?php echo $this->Admin->time($article['Article']['created']) ?></em>
-			</p>
+		<?php if (empty($articles)): ?>
+			<p>No Articles Found</p>
+		<?php else: ?>
+			<?php foreach($articles as $index => $article): ?>
+				<div class="news clearfix">
+					<a href="<?php echo $this->View->url('article_view', $article) ?>"><h4><?php echo $article['Article']['title'] ?></h4></a>
+					<p class="lead">
+						@ <small><em><?php echo $this->Admin->time($article['Article']['created']) ?></em></small>
+					</p>
+					<div class="row">
+					<div class="col-md-2 col-sm-3 col-xs-3">
+					<?php echo $this->Html->image($article['Data']['news-image'], array('style' => 'width:100%;')) ?>
+					</div>					
+					<?php if ( !empty($article['Data']['short-desc'])): ?>
+					<div class="col-md-10 col-sm-9 col-xs-9">
+					<?php echo $article['Data']['short-desc'] ?>
+					</div>
+					<?php endif ?>
+					</div>
+					<span class="pull-left">
+					    <a href="<?php echo $this->View->url('article_view', $article) ?>" class="btn btn-primary">Read More</a>
+					    <span style="margin-left: 10px">
+						<i class="icon icon-comment"></i>&nbsp;
+							<a href="<?php echo $this->View->url('article_view', $article) ?>#comments"><?php echo $article['Comments'] ?> Comments</a>
+					    </span>
+					    <span style="margin-left: 10px">
+						<i class="icon-user"></i>&nbsp;
+						Posted by <a href="<?php echo $this->View->url('user_profile', $article) ?>"><?php echo $article['User']['username'] ?></a>
+					    </span>
+					</span>
+					<span class="pull-right">
+						<?php if ( !empty($article['Article']['tags'])): ?>
+								<?php foreach($article['Article']['tags'] as $index => $tag): ?>
+							<a href="<?php echo $this->View->url('article_tag', $tag) ?>" class="tags">
+								<span class="btn btn-success"><?php echo $tag ?></span>
+							</a>
+						<?php endforeach ?>
+						<?php endif ?>
+					</span>
+				</div>
+				<hr>
+			<?php endforeach ?>
+		<?php endif ?>
 
-			<blockquote>
-				<?php echo $this->Field->getTextAreaData($article) ?>
-			</blockquote>
-
-			<div id="post-options">
-		        <span class="pull-left">
-			        <a href="<?php echo $this->View->url('article_view', $article) ?>" class="btn btn-primary">Read More</a>
-			        <span style="margin-left: 10px">
-		                <i class="fa fa-comment"></i>&nbsp;
-				        <a href="<?php echo $this->View->url('article_view', $article) ?>#comments"><?php echo $article['Comments'] ?> Comments</a>
-		            </span>
-		            <span style="margin-left: 10px">
-		                <i class="fa fa-user"></i>&nbsp;
-		                Posted by <a href="<?php echo $this->View->url('user_profile', $article) ?>"><?php echo $article['User']['username'] ?></a>
-		            </span>
-		        </span>
-		        <span class="pull-right">
-			        <?php if ( !empty($article['Article']['tags'])): ?>
-						<?php foreach($article['Article']['tags'] as $index => $tag): ?>
-			                <a href="<?php echo $this->View->url('article_tag', $tag) ?>" class="tags">
-				                <span class="btn btn-success"><?php echo $tag ?></span>
-			                </a>
-		                <?php endforeach ?>
-			        <?php endif ?>
-		        </span>
-			</div>
-		</div>
-		<hr>
-	<?php endforeach ?>
-<?php endif ?>
-
-<?php echo $this->Element('pagination') ?>
+		<?php echo $this->Element('pagination') ?>
+	</div>
+	<div class="col-md-3 col-sm-3">
+	<?php echo $this->Element('Banners/home_right_banner', array('data' => 'serviceside.jpg')) ?>
+	</div>
+</div> <!-- /end of news row -->

@@ -1,0 +1,15 @@
+<h3 class="theme-color-bold">Latest News</h3>
+
+<?php if (empty($data)): ?>
+	No Latest News.
+<?php endif ?>
+<div class="list-group">
+<?php foreach($data as $index => $news): ?>
+	<?php echo $this->Html->image($news['Data']['news-image']) ?>
+	<?php echo $news['Data']['summary'] ?>
+	<a href="#" class="list-group-item">
+		 <p class="list-group-item-text "> <?php echo $news['Article']['title'] ?> </p>
+	</a>
+<?php endforeach ?>
+</div>
+<a href="<?php echo $this->View->url('category_view', 'news') ?>" class="btn btn-primary btn-block btn-sm">&raquo; Click here for more new stories.</a>

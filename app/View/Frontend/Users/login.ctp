@@ -1,15 +1,32 @@
 {{ addCrumb('Login', null) }}
-
-<h1>Login</h1>
-
-{{ form.create() }}
-	{{ form.input('username') }}
-	{{ form.input('password') }}
-{{ form.end(array('class' => 'btn', 'label' => 'Login')) }}
-
-<a href="{{ url('register') }}">Don't have an account? Register now!</a><br />
-<a href="{{ url('user_forgot_password') }}">Forgot Password?</a><br />
-
+<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3 clearfix">
+	{{ form.create() }}
+		<fieldset>
+			<h2>Please Sign In</h2>
+			<hr class="colorgraph">
+			<div class="form-group">
+				{{ form.input('username', array('class' => 'form-control input-lg', 'placeholder' => 'Username')) }}
+			</div>
+			<div class="form-group">
+				{{ form.input('password', array('class' => 'form-control input-lg', 'placeholder' => 'Password')) }}
+			</div>
+			<span class="button-checkbox">
+				<button type="button" class="btn" data-color="info">Remember Me</button>
+  			        <input type="checkbox" name="remember_me" id="remember_me" checked="checked">
+				<a href="{{ url('user_forgot_password') }}" class="btn btn-link pull-right">Forgot Password?</a>
+			</span>
+			<hr class="colorgraph">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6">
+					<input type="submit" class="btn btn-lg btn-success btn-block" value="Sign In">
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-6">
+					<a href="{{ url('register') }}" class="btn btn-lg btn-primary btn-block">Register</a>
+				</div>
+			</div>
+		</fieldset>
+	{{ form.end() }}
+</div>	
 {% if not empty(this->Facebook) %}
 	<h1>3rd Party Login</h1>
 

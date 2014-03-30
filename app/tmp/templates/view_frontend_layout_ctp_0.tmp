@@ -2,7 +2,7 @@
 <?php if ( !empty($this->Facebook)): ?>
 <?php echo $facebook.html() ?>
 <?php else: ?>
-<html lang="en">
+<html lang="en"> 
 <?php endif ?>
 <head>
 	<?php echo $this->Html->charset() ?>
@@ -38,8 +38,7 @@
 	<!-- Le styles -->
 	<?php echo $this->Html->css("bootstrap-default.min") ?>
 	<style type="text/css">
-		body {
-			padding-top: 60px;
+		body {			
 			padding-bottom: 40px;
 		}
 
@@ -49,6 +48,8 @@
 	</style>
 
 	<?php echo $this->Html->css("font-awesome.min") ?>
+	<?php echo $this->Html->css("style") ?>
+	<?php echo $this->Html->css("plugins/skitter/skitter.styles") ?>
 
 	<!--[if lt IE 9]>
 	<?php $this->AdaptHtml->script('html5.min') ?>
@@ -59,131 +60,102 @@
 </head>
 
 <body>
-
-<div class="navbar navbar-inverse navbar-fixed-top">
-	<button class="navbar-toggle collapsed" data-toggle="collapse" type="button" data-target=".navbar-responsive-collapse">
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	</button>
-	<a class="navbar-brand" href="<?php echo $this->webroot ?>">AdaptCMS 3.0.2</a>
-
-	<div class="navbar-responsive-collapse nav-collapse collapse">
-		<ul class="nav navbar-nav">
-			<li class="active"><a href="<?php echo $this->webroot ?>">Home</a></li>
-			<?php if (!$this->Session->read("Auth.User.Role.defaults") || $this->Session->read("Auth.User.Role.defaults") == "default-admin"): ?>
-			<li><a href="<?php echo $this->webroot ?>admin">Admin</a></li>
-			<?php endif ?>
-			<?php if ( $this->View->pluginExists('Adaptbb')): ?>
-			<li>
-				<a href="<?php echo $this->View->url('adaptbb_forums') ?>">Forums</a>
-			</li>
-			<?php endif ?>
+<!--start: Header -->
+<header class="page-header">		
+	<nav class="navbar navbar-fixed-top navbar-default header-navbar" role="navigation">
+	<!--start: Container -->				
+	<div class="container">
+	    <div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+		    <span class="sr-only">Toggle navigation</span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		    <span class="icon-bar"></span>
+		</button>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex2-collapse">
+		    <span class="sr-only">Toggle navigation</span>
+		    <span class="glyphicon glyphicon-th-list"></span>
+		</button>
+		<a href="<?php echo $this->webroot ?>" class="navbar-brand"><?php echo $this->Html->image('logo.png') ?></a>		    </div>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse navbar-ex1-collapse">		    			
+		<ul class="nav navbar-nav navbar-right cl-effect-21" id="top-menu">
+		    <li class="active"><a href="<?php echo $this->webroot ?>">Home</a></li>
+		    <li><a href="#about">Our Benefits</a></li>
+		    <li><a href="<?php echo $this->View->url('category_view', array('classifieds')) ?>">Products</a></li>
+		    <li><a href="<?php echo $this->View->url('category_view', array('calendars')) ?>">E-News</a></li>
+		    <li><a href="<?php echo $this->View->url('category_view', array('listings')) ?>">Services</a></li>
+		    <li><a href="<?php echo $this->View->url('category_view', array('news')) ?>">Events</a></li>
+		    <li><a href="<?php echo $this->View->url('category_view', array('videos')) ?>">Videos</a></li>
 		</ul>
-		<?php echo $this->Element('Search/search_basic') ?>
-		<p class="navbar-text pull-right">
-			<!--nocache-->
-			<?php if ($this->Session->check("Auth.User.username")): ?>
-			Logged in as <a href="<?php echo $this->View->url('user_profile', $this->Session->read('Auth.User.username')) ?>" class="navbar-link"> <?php echo $this->Session->read('Auth.User.username') ?> </a>
-
-			<?php if ( $this->Session->read('Auth.User.login_type') && $this->Session->read('Auth.User.login_type') == 'facebook'): ?>
-			<?php echo $facebook_logout ?>
-			<?php else: ?>
-			<a href="<?php echo $this->View->url('logout') ?>" class="logout"> (logout)</a>
-			<?php endif ?>
-			<?php else: ?>
-			Please <a href="<?php echo $this->View->url('login') ?>" class="navbar-link">login</a> or <a href="<?php echo $this->View->url('register') ?>" class="navbar-link">register</a>
-			<?php endif ?>
-			<!--/nocache-->
-		</p>
+	    </div>
+	    <!-- /.navbar-collapse -->
 	</div>
-	<!--/.nav-collapse -->
+	<!-- /.container -->
+	</nav>					
+</header>
+<!--end: Header-->
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+		<?php echo $this->Html->image('top_banner.jpg', array('class' => 'top-banner')) ?>
+	</div>
+	<div class="col-md-12">
+		<div class="info-bar "><p class="p-text">Promoting packaging, printing, wide format news, events and equipment online since 2002</p></div>
+	</div>
 </div>
-
-<div class="container-fluid">
-	<div class="row-fluid">
-		<div class="col-lg-3 left-menu">
-			<div class="well sidebar-nav">
-				<ul class="nav nav-list">
-					<li class="nav-header">Links</li>
-					<li>
-						<a href="<?php echo $this->View->url('media_index') ?>">Media</a>
-					</li>
-					<li>
-						<a href="<?php echo $this->View->url('article_rss') ?>">RSS Feed</a>
-					</li>
-					<li>
-						<a href="<?php echo $this->View->url('page_view', 'contact-us') ?>">Contact Us</a>
-					</li>
-					<?php if ( $this->View->pluginExists('Polls')): ?>
-					<li>
-						<a href="<?php echo $this->View->url('polls_list') ?>">Polls List</a>
-					</li>
-					<?php endif ?>
-					<li class="nav-header">Categories</li>
-					<li>
-						<a href="<?php echo $this->View->url('category_view', array('news')) ?>">News</a>
-					</li>
-
-					<?php if ( !empty($block_data['show-poll'])): ?>
-					<li class="nav-header">Poll</li>
-
-					<!--nocache-->
-					<div class="span11 clearfix">
-						<?php echo $this->Element('Polls.show_poll', array('data' => $block_data['show-poll'], 'permissions' => $block_permissions['show-poll'])) ?>
-					</div>
-					<!--/nocache-->
-					<?php endif ?>
-
-					<?php if ( !empty($block_data['latest-links'])): ?>
-					<li class="nav-header clear">Links</li>
-
-					<div class="span11 clearfix">
-						<?php echo $this->Element('Links.links_list', array('data' => $block_data['latest-links'])) ?>
-					</div>
-					<?php endif ?>
-				</ul>
-			</div>
-			<!--/.well -->
-		</div>
-		<!--/span-->
-		<div class="col-lg-9 content">
-			<?php echo
+<div class="wrapper">
+	<?php echo
 				$this->Html->getCrumbList(array(
 					"class" => "breadcrumb",
 					"escape" => false,
 					"lastClass" => "active"
 				), "Home") ?>
-			<!--nocache-->
-			<?php echo $this->Session->flash() ?>
-			<!--/nocache-->
+	<!--nocache-->
+	<?php echo $this->Session->flash() ?>
+	<!--/nocache-->
 
-			<?php echo $this->fetch("content") ?>
-		</div>
-		<!--/span-->
-
-		<hr>
-
-		<div class="col-lg-12 footer">
-			<p>
-			      <span class="pull-left">
-			          Powered by <?php echo $this->Html->link("AdaptCMS " . ADAPTCMS_VERSION, "http://www.adaptcms.com", array("target" => "_blank")) ?>
-			      </span>
-			      <span class="pull-right">
-			        &copy;
-				      2006-<?php echo date("Y") ?> <?php echo $this->Html->link("AdaptCMS", "http://www.adaptcms.com", array("target" => "_blank")) ?>
-				      <br/>
-			        Cosmo theme by <?php echo $this->Html->link('Bootswatch', 'http://bootswatch.com/cosmo/', array('target' => '_blank')) ?>
-			      </span>
-			</p>
-		</div>
-	</div>
-	<!--/row-->
+	<?php echo $this->fetch("content") ?>	
 </div>
-<!--/.fluid-container-->
+<hr />
+<footer class="row footerline ">
+	<div class="col-md-3 "> 
+		Copyright @ All Rights Reserved.	
+	</div>
+	<div class="col-md-7 col-md-offset-2">
+		<ul class="nav nav-list nav-justified">
+			<li>terms & conditions <span class="sep">|</span></li> 
+			<li>privacy policy <span class="sep">|</span></li> 
+			<li>contact us<span class="sep">|</span></li>
+			<li>site map<span class="sep">|</span></li>
+			<li>link to Pxl Post</li>
+		 </ul>
+	</div>
+</footer>
 
+</div>
 <div id="webroot" style="display:none">/PixlPost/</div></body>
 <?php if ( !empty($this->Facebook)): ?>
 <?php echo $facebook.init() ?>
 <?php endif ?>
+<!-- start: Java Script -->
+<?php
+echo $this->Html->script('vendor/skitter/jquery.easing.1.3');
+echo $this->Html->script('vendor/skitter/jquery.animate-colors-min');
+echo $this->Html->script('vendor/skitter/jquery.skitter.min');
+
+?>
+<!-- end: Java Script -->
+<script type="text/javascript">
+	$(window).scroll(function() {
+	    if ($(".navbar").offset().top > 50) {
+		$(".navbar-fixed-top").addClass("top-nav-collapse");
+	    } else {
+		$(".navbar-fixed-top").removeClass("top-nav-collapse");
+	    }
+	});
+	jQuery(document).ready(function($) {
+	    $(".box_skitter_large").skitter();
+	});
+</script>
 </html>
