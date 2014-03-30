@@ -782,3 +782,39 @@ Request URL: /PixlPost/fonts/glyphicons-halflings-regular.ttf
 Stack Trace:
 #0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-03-30 18:23:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 18:23:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 18:23:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 18:23:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

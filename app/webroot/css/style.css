@@ -40,6 +40,7 @@ h3, h5 {
 h5 {
 	font-weight: bold;
 }
+
 /** Applying the header style
    =========================*/
 .page-header .navbar-header .navbar-brand {
@@ -74,6 +75,16 @@ img {
 /**
  * banner styles
  */
+
+/** Form styles
+ =================================*/
+form label {
+	font-weight: normal;
+}
+form label.error {
+	color: red;
+	font-weight: normal;
+}
 img.top-banner {
 	width: 100%;
 }
