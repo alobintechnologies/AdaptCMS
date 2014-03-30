@@ -27,7 +27,13 @@
 			<div id="captcha">
 			    {{ captcha.form('data[User][captcha]') }}
 			</div>
-			{{ form.end('Submit') }}
+			<hr class="colorgraph">
+			<div class="row">
+				<div class="col-xs-6 col-sm-6 col-md-6">
+					<input type="submit" class="btn btn-lg btn-success btn-block" value="Sign In">
+				</div>
+			</div>
+			{{ form.end() }}
 		{% endif %}
 	</fieldset>
 </div>
