@@ -1,0 +1,27 @@
+<?php foreach($data as $index => $link): ?>
+	<li>
+		<?php if ( !empty($link['Link']['file_id'])): ?>
+			<?php $title = $this->Html->image('/' . $link['File']['dir'].$link['File']['filename'], array(
+				'class' => 'span6',
+				'style' => 'max-width: 300px;'
+			)) ?>
+		<?php elseif (!empty($link['Link']['image_url'])): ?>
+			<?php $title = $this->Html->image('/' . $link['Link']['image_url'], array(
+				'class' => 'span6',
+				'style' => 'max-width: 300px;'
+			)) ?>
+		<?php else: ?>
+			<?php $title = $link['Link']['link_title'] ?>
+		<?php endif ?>
+
+		<a href="<?php echo $link['Link']['url'] ?>" target="<?php echo $link['Link']['link_target'] ?>" class="track clearfix" id="<?php echo $link['Link']['id'] ?>">
+			<?php echo $title ?>
+		</a>
+	</li>
+<?php endforeach ?>
+
+<div class="clearfix"></div>
+
+<a href="<?php echo $this->View->url('links_apply') ?>" class="btn btn-info">
+	Submit Link <i class="fa fa-plus"></i>
+</a>

@@ -1,0 +1,23 @@
+<?php if (empty($model)): ?>
+	<?php $model = $this->Paginator->defaultModel() ?>
+<?php endif ?>
+<?php $numbers = $this->Paginator->numbers(array('separator' => false, 'tag' => 'li', 'currentClass' => 'active paginator', 'first' => '1', 'model' => $model )) ?>
+
+<?php if ( !empty($numbers)): ?>
+	<?php if ( !empty($page)): ?>
+		<?php echo $this->Paginator->options(array('url' => array(
+			'model' => $model,
+			$page
+		))) ?>
+	<?php endif ?>
+
+	<div class="pagination">
+		<ul class="pagination">
+			<?php echo $this->Paginator->prev('«', array('tag' => 'li'), null, array('tag' => 'li','class' => 'disabled','disabledTag' => 'a')) ?>
+			<?php echo $this->Paginator->numbers(array('separator' => '','currentTag' => 'a', 'currentClass' => 'active','tag' => 'li','first' => 1, 'model' => $model, 'ng-click' => 'paginator($event)')) ?>
+			<?php echo $this->Paginator->next('»', array('tag' => 'li', 'currentClass' => 'disabled'), null, array('tag' => 'li','class' => 'disabled','disabledTag' => 'a')) ?>
+		</ul>
+	</div>
+
+	<?php echo $this->Paginator->counter('Showing records <strong>{:start}-{:end}</strong> out of <strong>{:count}</strong> total', array('escape' => false, 'model' => $model)) ?>
+<?php endif ?>

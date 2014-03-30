@@ -239,7 +239,7 @@ class CategoriesController extends AppController
             'Article.publish_time <=' => date('Y-m-d H:i:s')
 		);
 
-	    if ($this->permissions['any'] == 0 && $this->Auth->user('id') || $this->Category->getPermissionAccess($this->getRole(), 'view', $category))
+	    if ($this->permissions['any'] == 0 && $this->Auth->user('id') && $this->Category->getPermissionAccess($this->getRole(), 'view', $category))
 	    	$conditions['Article.user_id'] = $this->Auth->user('id');
 
 		$this->Paginator->settings = array(

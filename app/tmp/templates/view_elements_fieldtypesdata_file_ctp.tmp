@@ -1,0 +1,1 @@
+<?= (!empty($data['File']) ? $this->Html->url('/', true) . $data['File']['dir'] . $data['File']['filename'] : '') ?>

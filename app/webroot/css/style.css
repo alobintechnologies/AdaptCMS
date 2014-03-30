@@ -1,0 +1,122 @@
+/**
+ * This is the major style applied to the site.
+ *
+ * bootstrap related styles
+ */
+/** Applying style for heading */
+h3, h5 {
+	text-transform: uppercase;
+	color: #8FC442;
+}
+h5 {
+	font-weight: bold;
+}
+/** Applying the header style
+   =========================*/
+.page-header .navbar-header .navbar-brand {
+	padding: 0px 15px;
+}
+
+.info-bar{
+	background-color: #6c6c6c;
+	height: 56px;
+}
+.info-bar .p-text {
+	line-height: 56px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+.header-navbar .navbar-nav li a {
+    letter-spacing: 1px;
+	text-transform: uppercase;
+}
+img {
+	max-width: 100%;
+}
+
+/**
+ * news styles
+ */
+.news .lead {
+	font-size: 1em;
+}
+/**
+ * banner styles
+ */
+img.top-banner {
+	width: 100%;
+}
+@media(min-width:992px) {
+    .header-navbar {
+        padding: 15px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+		.header-navbar .navbar-nav > li > a {
+			color: #999;
+		}
+    .top-nav-collapse {
+        /* Customize the look and feel of the collapsed top nav here */
+        padding: 2px 0;
+    }
+
+	
+	/* Effect 21: borders slight translate */
+	.cl-effect-21 > li a {
+		color: #333;
+		text-shadow: none;
+		-webkit-transition: color 0.3s;
+		-moz-transition: color 0.3s;
+		transition: color 0.3s;
+	}
+
+	.cl-effect-21 > li a::before,
+	.cl-effect-21 > li a::after {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 3px;
+		background: #7CC622;
+		content: '';
+		opacity: 0;
+		-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+		-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+		transition: opacity 0.3s, transform 0.3s;
+		-webkit-transform: translateY(-10px);
+		-moz-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+	.cl-effect-21 > li a::before {
+		top: 0;
+		-webkit-transform: translateY(-10px);
+		-moz-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+	.cl-effect-21 > li a::after {
+		bottom: 0;
+		-webkit-transform: translateY(10px);
+		-moz-transform: translateY(10px);
+		transform: translateY(10px);
+	}
+
+	.cl-effect-21 > li a:hover,
+	.cl-effect-21 > li a:focus {
+		color: #7CC622;
+	}
+
+	.cl-effect-21 > li a:hover::before,
+	.cl-effect-21 > li a:focus::before,
+	.cl-effect-21 > li a:hover::after,
+	.cl-effect-21 > li a:focus::after {
+		opacity: 1;
+		-webkit-transform: translateY(0px);
+		-moz-transform: translateY(0px);
+		transform: translateY(0px);
+	}
+
+}

@@ -28,5 +28,5 @@
         <div id="captcha">
             {{ captcha.form('data[User][captcha]') }}
         </div>
-	{{ form.end(array('label' => 'Submit', 'class' => 'btn btn-primary')) }}
+	{{ form.end('Submit') }}
 {% endif %}

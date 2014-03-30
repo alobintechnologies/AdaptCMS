@@ -26,7 +26,8 @@
 				{% endif %}
 				<div class="caption">
 					<em>
-						Posted {{ time(library['Media']['created'], 'words') }}
+						Posted @
+						{{ time(library['Media']['created'], 'words') }}
 					</em>
 				</div>
 			</li>

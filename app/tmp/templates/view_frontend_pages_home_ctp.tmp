@@ -1,0 +1,42 @@
+<?php if (empty($articles)): ?>
+	<p>No Articles Found</p>
+<?php else: ?>
+	<?php foreach($articles as $index => $article): ?>
+		<div class="span8 no-marg-left clearfix">
+			<a href="<?php echo $this->View->url('article_view', $article) ?>"><h2><?php echo $article['Article']['title'] ?></h2></a>
+			<p class="lead">
+				@ <em><?php echo $this->Admin->time($article, '', 'created') ?></em>
+			</p>
+
+			<blockquote>
+				<?php echo $this->Field->getTextAreaData($article) ?>
+			</blockquote>
+
+			<div id="post-options">
+		        <span class="pull-left">
+			        <a href="<?php echo $this->View->url('article_view', $article) ?>" class="btn btn-primary">Read More</a>
+			        <span style="margin-left: 10px">
+		                <i class="fa fa-comment"></i>&nbsp;
+				        <a href="<?php echo $this->View->url('article_view', $article) ?>#comments"><?php echo $article['CommentsCount'] ?> Comments</a>
+		            </span>
+		            <span style="margin-left: 10px">
+		                <i class="fa fa-user"></i>&nbsp;
+		                Posted by <a href="<?php echo $this->View->url('user_profile', $article) ?>"><?php echo $article['User']['username'] ?></a>
+		            </span>
+		        </span>
+		        <span class="pull-right">
+			        <?php if ( !empty($article['Article']['tags'])): ?>
+						<?php foreach($article['Article']['tags'] as $index => $tag): ?>
+			                <a href="<?php echo $this->View->url('article_tag', $tag) ?>" class="tags">
+				                <span class="btn btn-success"><?php echo $tag ?></span>
+			                </a>
+		                <?php endforeach ?>
+			        <?php endif ?>
+		        </span>
+			</div>
+		</div>
+		<hr>
+	<?php endforeach ?>
+<?php endif ?>
+
+<?php echo $this->Element('pagination') ?>
