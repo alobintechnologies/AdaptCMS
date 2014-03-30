@@ -13,7 +13,7 @@
 		      </div>
 		      <div class="panel-body">
 			{% if empty(articles) %}
-				<p>No Articles Found</p>
+				<p>No News Found</p>
 			{% else %}
 				{% loop article in articles %}
 					<div class="news clearfix">
