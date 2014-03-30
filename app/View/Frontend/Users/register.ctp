@@ -1,6 +1,8 @@
 {{ addCrumb('Register', null) }}
-
-<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3 clearfix">
+<div class="col-md-3 col-sm-2 col-xs-12">
+	{{ partial('Menus\guest_user_menus') }}
+</div>
+<div class="col-xs-12 col-sm-8 col-md-6 clearfix">
 {{ form.create('User', array('class' => 'admin-validate')) }}
 	<fieldset>
 		<h2>Please Register</h2>
@@ -68,5 +70,7 @@
 
 	{{ facebook_registration }}
 {% endif %}
+</div>
+<div class="col-md-3 col-sm-2 col-xs-12">	
 </div>
 <div class="clearfix"></div>

@@ -40,6 +40,9 @@ h3, h5 {
 h5 {
 	font-weight: bold;
 }
+img {
+	width: 100%;
+}
 
 /** Applying the header style
    =========================*/

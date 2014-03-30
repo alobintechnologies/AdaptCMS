@@ -4,12 +4,17 @@
 	No Latest News.
 {% endif %}
 <div class="list-group">
+{% if not empty(data) %}
+	{{ image($data[0]['Data']['news-image']) }}
+	<div class="well">
+		{{ data[0]['Data']['short-desc'] }}
+		<a href="{{ url('article_view', $data[0]) }}">Read more &raquo;</a>
+	</div>
+{% endif %}
 {% loop news in data %}
-	{{ image($news['Data']['news-image']) }}
-	{{ news['Data']['summary'] }}
-	<a href="#" class="list-group-item">
+	<a href="{{ url('article_view', $news) }}" class="list-group-item">
 		 <p class="list-group-item-text "> {{ news['Article']['title'] }} </p>
 	</a>
 {% endloop %}
-</div>
 <a href="{{ url('category_view', 'news') }}" class="btn btn-primary btn-block btn-sm">&raquo; Click here for more new stories.</a>
+</div>

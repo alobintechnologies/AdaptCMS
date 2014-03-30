@@ -818,3 +818,1265 @@ Request URL: /PixlPost/img/skittersprite-default.png
 Stack Trace:
 #0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-03-30 19:46:48 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:46:50 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:47:17 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:47:18 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:47:26 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:47:28 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:47:36 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:47:37 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:52:49 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:52:50 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:52:58 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:52:59 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:56:52 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:56:53 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 19:56:58 Error: [MissingTableException] Table media_articles for model MediaArticle was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'media_articles',
+  'class' => 'MediaArticle',
+  'ds' => 'default',
+)
+Request URL: /PixlPost/article/12/andrew-rohan-opens-ricoh-s-centre-of-technical-excellence
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(3498): Model->setSource('media_articles')
+#1 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(864): Model->schema()
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(892): Model->__isset('MediaArticle')
+#4 D:\xampp\htdocs\PixlPost\app\Model\Article.php(786): Model->__get('MediaArticle')
+#5 D:\xampp\htdocs\PixlPost\app\Model\Article.php(770): Article->getMedia('12', '/PixlPost/')
+#6 D:\xampp\htdocs\PixlPost\app\Controller\ArticlesController.php(597): Article->viewArticle(Object(CakeRequest))
+#7 [internal function]: ArticlesController->view()
+#8 D:\xampp\htdocs\PixlPost\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArticlesController), Array)
+#9 D:\xampp\htdocs\PixlPost\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\PixlPost\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ArticlesController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-30 19:56:58 Warning: Warning (2): filemtime() [<a href='http://php.net/function.filemtime'>function.filemtime</a>]: stat failed for view in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 136]
+Trace:
+filemtime - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 136
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+[main] - [internal], line ??
+
+2014-03-30 19:56:58 Warning: Warning (2): file_get_contents(view) [<a href='http://php.net/function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 153]
+Trace:
+file_get_contents - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+[main] - [internal], line ??
+
+2014-03-30 19:57:38 Error: [MissingTableException] Table media_articles for model MediaArticle was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'media_articles',
+  'class' => 'MediaArticle',
+  'ds' => 'default',
+)
+Request URL: /PixlPost/article/12/andrew-rohan-opens-ricoh-s-centre-of-technical-excellence
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(3498): Model->setSource('media_articles')
+#1 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(864): Model->schema()
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(892): Model->__isset('MediaArticle')
+#4 D:\xampp\htdocs\PixlPost\app\Model\Article.php(786): Model->__get('MediaArticle')
+#5 D:\xampp\htdocs\PixlPost\app\Model\Article.php(770): Article->getMedia('12', '/PixlPost/')
+#6 D:\xampp\htdocs\PixlPost\app\Controller\ArticlesController.php(597): Article->viewArticle(Object(CakeRequest))
+#7 [internal function]: ArticlesController->view()
+#8 D:\xampp\htdocs\PixlPost\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArticlesController), Array)
+#9 D:\xampp\htdocs\PixlPost\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\PixlPost\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ArticlesController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-30 19:57:38 Warning: Warning (2): filemtime() [<a href='http://php.net/function.filemtime'>function.filemtime</a>]: stat failed for view in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 136]
+Trace:
+filemtime - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 136
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+[main] - [internal], line ??
+
+2014-03-30 19:57:38 Warning: Warning (2): file_get_contents(view) [<a href='http://php.net/function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 153]
+Trace:
+file_get_contents - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+[main] - [internal], line ??
+
+2014-03-30 20:00:58 Error: [MissingTableException] Table media_articles for model MediaArticle was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'media_articles',
+  'class' => 'MediaArticle',
+  'ds' => 'default',
+)
+Request URL: /PixlPost/article/12/andrew-rohan-opens-ricoh-s-centre-of-technical-excellence
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(3498): Model->setSource('media_articles')
+#1 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(864): Model->schema()
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(892): Model->__isset('MediaArticle')
+#4 D:\xampp\htdocs\PixlPost\app\Model\Article.php(786): Model->__get('MediaArticle')
+#5 D:\xampp\htdocs\PixlPost\app\Model\Article.php(770): Article->getMedia('12', '/PixlPost/')
+#6 D:\xampp\htdocs\PixlPost\app\Controller\ArticlesController.php(597): Article->viewArticle(Object(CakeRequest))
+#7 [internal function]: ArticlesController->view()
+#8 D:\xampp\htdocs\PixlPost\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArticlesController), Array)
+#9 D:\xampp\htdocs\PixlPost\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\PixlPost\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ArticlesController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-30 20:00:58 Warning: Warning (2): filemtime() [<a href='http://php.net/function.filemtime'>function.filemtime</a>]: stat failed for view in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 136]
+Trace:
+filemtime - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 136
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+[main] - [internal], line ??
+
+2014-03-30 20:00:58 Warning: Warning (2): file_get_contents(view) [<a href='http://php.net/function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 153]
+Trace:
+file_get_contents - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+[main] - [internal], line ??
+
+2014-03-30 20:01:09 Error: [MissingTableException] Table media_articles for model MediaArticle was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'media_articles',
+  'class' => 'MediaArticle',
+  'ds' => 'default',
+)
+Request URL: /PixlPost/article/12/andrew-rohan-opens-ricoh-s-centre-of-technical-excellence
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(3498): Model->setSource('media_articles')
+#1 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(1355): Model->getDataSource()
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(864): Model->schema()
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Model\Model.php(892): Model->__isset('MediaArticle')
+#4 D:\xampp\htdocs\PixlPost\app\Model\Article.php(786): Model->__get('MediaArticle')
+#5 D:\xampp\htdocs\PixlPost\app\Model\Article.php(770): Article->getMedia('12', '/PixlPost/')
+#6 D:\xampp\htdocs\PixlPost\app\Controller\ArticlesController.php(597): Article->viewArticle(Object(CakeRequest))
+#7 [internal function]: ArticlesController->view()
+#8 D:\xampp\htdocs\PixlPost\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArticlesController), Array)
+#9 D:\xampp\htdocs\PixlPost\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 D:\xampp\htdocs\PixlPost\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(ArticlesController), Object(CakeRequest), Object(CakeResponse))
+#11 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-03-30 20:01:09 Warning: Warning (2): filemtime() [<a href='http://php.net/function.filemtime'>function.filemtime</a>]: stat failed for view in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 136]
+Trace:
+filemtime - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 136
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+[main] - [internal], line ??
+
+2014-03-30 20:01:09 Warning: Warning (2): file_get_contents(view) [<a href='http://php.net/function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 153]
+Trace:
+file_get_contents - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+[main] - [internal], line ??
+
+2014-03-30 20:02:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:02:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:02:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:02:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:04:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:04:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:04:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:04:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:08:06 Error: Fatal Error (4): syntax error, unexpected '[' in [D:\xampp\htdocs\PixlPost\app\tmp\templates\view_elements_blocks_home_latest_news_ctp.tmp, line 8]
+2014-03-30 20:08:06 Error: [InternalErrorException] Internal Server Error
+Request URL: /PixlPost/
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 8, Array)
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\xampp\htdocs...', 8, Array)
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 20:08:06 Warning: Warning (2): filemtime() [<a href='http://php.net/function.filemtime'>function.filemtime</a>]: stat failed for display in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 136]
+Trace:
+filemtime - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 136
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 254
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 203
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 929
+App::shutdown() - CORE\Cake\Core\App.php, line 902
+[main] - [internal], line ??
+
+2014-03-30 20:08:06 Warning: Warning (2): file_get_contents(display) [<a href='http://php.net/function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 153]
+Trace:
+file_get_contents - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 254
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 203
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 929
+App::shutdown() - CORE\Cake\Core\App.php, line 902
+[main] - [internal], line ??
+
+2014-03-30 20:08:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:08:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:08:29 Error: Fatal Error (4): syntax error, unexpected '[' in [D:\xampp\htdocs\PixlPost\app\tmp\templates\view_elements_blocks_home_latest_news_ctp.tmp, line 8]
+2014-03-30 20:08:29 Error: [InternalErrorException] Internal Server Error
+Request URL: /PixlPost/
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 8, Array)
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\xampp\htdocs...', 8, Array)
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 20:08:29 Warning: Warning (2): filemtime() [<a href='http://php.net/function.filemtime'>function.filemtime</a>]: stat failed for display in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 136]
+Trace:
+filemtime - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 136
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 254
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 203
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 929
+App::shutdown() - CORE\Cake\Core\App.php, line 902
+[main] - [internal], line ??
+
+2014-03-30 20:08:29 Warning: Warning (2): file_get_contents(display) [<a href='http://php.net/function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 153]
+Trace:
+file_get_contents - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 254
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 203
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 929
+App::shutdown() - CORE\Cake\Core\App.php, line 902
+[main] - [internal], line ??
+
+2014-03-30 20:08:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:08:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:08:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:08:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:08:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:08:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:08:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:08:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:08:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:08:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:18 Error: Fatal Error (4): syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in [D:\xampp\htdocs\PixlPost\app\tmp\templates\view_elements_blocks_home_latest_news_ctp.tmp, line 11]
+2014-03-30 20:09:18 Error: [InternalErrorException] Internal Server Error
+Request URL: /PixlPost/
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 11, Array)
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\xampp\htdocs...', 11, Array)
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 20:09:18 Warning: Warning (2): filemtime() [<a href='http://php.net/function.filemtime'>function.filemtime</a>]: stat failed for display in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 136]
+Trace:
+filemtime - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 136
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 254
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 203
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 929
+App::shutdown() - CORE\Cake\Core\App.php, line 902
+[main] - [internal], line ??
+
+2014-03-30 20:09:18 Warning: Warning (2): file_get_contents(display) [<a href='http://php.net/function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 153]
+Trace:
+file_get_contents - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 254
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 203
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 929
+App::shutdown() - CORE\Cake\Core\App.php, line 902
+[main] - [internal], line ??
+
+2014-03-30 20:09:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:09:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:10:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:10:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:10:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:10:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:10:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:10:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:10:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:10:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:10:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:10:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:10:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:10:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:11:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:11:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:11:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:11:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:12:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:12:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:12:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:12:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:12:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:12:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:12:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:12:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:13:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:13:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:13:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:13:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:13:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:13:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:13:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:13:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:14:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:14:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:14:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:14:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:15:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:15:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:15:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:15:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:19:52 Error: Fatal Error (4): syntax error, unexpected '1' (T_LNUMBER), expecting variable (T_VARIABLE) or '$' in [D:\xampp\htdocs\PixlPost\app\tmp\templates\view_elements_blocks_home_latest_news_ctp.tmp, line 14]
+2014-03-30 20:19:52 Error: [InternalErrorException] Internal Server Error
+Request URL: /PixlPost/
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'D:\xampp\htdocs...', 14, Array)
+#2 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'D:\xampp\htdocs...', 14, Array)
+#3 D:\xampp\htdocs\PixlPost\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-30 20:19:52 Warning: Warning (2): filemtime() [<a href='http://php.net/function.filemtime'>function.filemtime</a>]: stat failed for display in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 136]
+Trace:
+filemtime - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 136
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 254
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 203
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 929
+App::shutdown() - CORE\Cake\Core\App.php, line 902
+[main] - [internal], line ??
+
+2014-03-30 20:19:52 Warning: Warning (2): file_get_contents(display) [<a href='http://php.net/function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in [D:\xampp\htdocs\PixlPost\app\View\AdaptcmsView.php, line 153]
+Trace:
+file_get_contents - [internal], line ??
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 897
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 116
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+ExceptionRenderer::_outputMessage() - CORE\Cake\Error\ExceptionRenderer.php, line 273
+ExceptionRenderer::error500() - CORE\Cake\Error\ExceptionRenderer.php, line 242
+ExceptionRenderer::render() - CORE\Cake\Error\ExceptionRenderer.php, line 175
+ErrorHandler::handleException() - CORE\Cake\Error\ErrorHandler.php, line 120
+call_user_func - [internal], line ??
+ErrorHandler::handleFatalError() - CORE\Cake\Error\ErrorHandler.php, line 254
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 203
+call_user_func - [internal], line ??
+App::_checkFatalError() - CORE\Cake\Core\App.php, line 929
+App::shutdown() - CORE\Cake\Core\App.php, line 902
+[main] - [internal], line ??
+
+2014-03-30 20:19:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:19:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:20:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:20:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:20:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:20:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:20:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news2.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:20:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/news.jpg
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:20:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skitterajax-loader.gif
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-30 20:20:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /PixlPost/img/skittersprite-default.png
+Stack Trace:
+#0 D:\xampp\htdocs\PixlPost\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

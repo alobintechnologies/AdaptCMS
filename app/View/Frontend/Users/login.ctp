@@ -1,5 +1,9 @@
 {{ addCrumb('Login', null) }}
-<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3 clearfix">
+
+<div class="col-md-3 col-sm-2 col-xs-12">
+	{{ partial('Menus\guest_user_menus') }}
+</div>
+<div class="col-xs-12 col-sm-8 col-md-6 clearfix">
 	{{ form.create() }}
 		<fieldset>
 			<h2>Please Sign In</h2>
@@ -26,8 +30,7 @@
 			</div>
 		</fieldset>
 	{{ form.end() }}
-</div>	
-{% if not empty(this->Facebook) %}
+	{% if not empty(this->Facebook) %}
 	<h1>3rd Party Login</h1>
 
 	<p>
@@ -39,5 +42,8 @@
 		{% endif %}
 	</p>
 {% endif %}
+</div>	
+<div class="col-md-3 col-sm-2 col-xs-12">	
+</div>
 
 <div class="clearfix"></div>
