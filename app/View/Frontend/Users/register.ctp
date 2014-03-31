@@ -18,7 +18,7 @@
 			{{ form.input('password_confirm', array('type' => 'password', 'class' => 'required form-control ', 'placeholder' => 'Confirm Password')) }}
 		</div>
 		<div class="form-group">
-			{{ form.input('email', array('type' => 'password', 'class' => 'required email form-control ', 'placeholder' => 'Confirm Password')) }}
+			{{ form.input('email', array('type' => 'email', 'class' => 'required email form-control ', 'placeholder' => 'Email Address')) }}
 		</div>
 		{{ form.hidden('last_reset_time', array('value' => $this->Time->format('Y-m-d H:i:s', time()) )) }}
 	

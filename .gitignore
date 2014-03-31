@@ -1,18 +1,13 @@
-
-.idea/*
-
 # User specific & automatically generated files #
 #################################################
 /app/Config/database.php
 /app/tmp
-/app/tmp/logs/*.log
 /lib/Cake/Console/Templates/skel/tmp/
 /plugins
 /vendors
 /build
 /dist
 /tags
-
 
 # OS generated files #
 ######################
