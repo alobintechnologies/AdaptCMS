@@ -238,8 +238,10 @@ class CategoriesController extends AppController
 			'Article.status' => 1,
             'Article.publish_time <=' => date('Y-m-d H:i:s')
 		);
-
-	    if ($this->permissions['any'] == 0 && $this->Auth->user('id') || $this->Category->getPermissionAccess($this->getRole(), 'view', $category))
+	    
+		//if ($this->permissions['any'] == 0 && $this->Auth->user('id') && $this->Category->getPermissionAccess($this->getRole(), 'view', $category))
+		// comment on 31/03/2014 for displaying the articles for all users in the frontend.
+	    if ($this->permissions['any'] == 0 && $this->Auth->user('id') && $this->Category->getPermissionAccess($this->getRole(), 'view', $category))
 	    	$conditions['Article.user_id'] = $this->Auth->user('id');
 
 		$this->Paginator->settings = array(
